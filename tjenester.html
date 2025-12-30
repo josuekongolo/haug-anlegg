@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tjenester fra Haug Anlegg AS - Tomtearbeid, VA og drenering, hage og terreng, steinarbeid, grøftearbeid i Bærum og omegn.">
+    <meta name="keywords" content="tomtegraving bærum, drenering asker, støttemur sandvika, grøftearbeid oslo vest">
+    <meta name="author" content="Haug Anlegg AS">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#9650;</text></svg>">
+
+    <title>Tjenester | Haug Anlegg AS</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html" class="logo">
+                    <span class="logo__text">Haug Anlegg</span>
+                    <span class="logo__tagline">Grunnarbeid i Bærum</span>
+                </a>
+
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li><a href="index.html" class="nav__link">Hjem</a></li>
+                        <li><a href="tjenester.html" class="nav__link nav__link--active">Tjenester</a></li>
+                        <li><a href="prosjekter.html" class="nav__link">Prosjekter</a></li>
+                        <li><a href="om-oss.html" class="nav__link">Om oss</a></li>
+                        <li><a href="kontakt.html" class="nav__link">Kontakt</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header__actions">
+                    <a href="tel:+4790000000" class="header__phone">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                        900 00 000
+                    </a>
+                    <a href="kontakt.html" class="btn btn--primary header__cta">Be om tilbud</a>
+                </div>
+
+                <button class="menu-toggle" aria-label="Meny">
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul class="mobile-menu__list">
+            <li class="mobile-menu__item"><a href="index.html" class="mobile-menu__link">Hjem</a></li>
+            <li class="mobile-menu__item"><a href="tjenester.html" class="mobile-menu__link">Tjenester</a></li>
+            <li class="mobile-menu__item"><a href="prosjekter.html" class="mobile-menu__link">Prosjekter</a></li>
+            <li class="mobile-menu__item"><a href="om-oss.html" class="mobile-menu__link">Om oss</a></li>
+            <li class="mobile-menu__item"><a href="kontakt.html" class="mobile-menu__link">Kontakt</a></li>
+        </ul>
+        <a href="tel:+4790000000" class="mobile-menu__phone">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            900 00 000
+        </a>
+        <a href="kontakt.html" class="btn btn--primary">Be om tilbud</a>
+    </div>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="page-hero__decoration"></div>
+        <div class="container">
+            <div class="page-hero__content">
+                <h1 class="page-hero__title fade-in">Tjenester</h1>
+                <p class="page-hero__subtitle fade-in">Komplett grunnarbeid med fokus på kvalitet</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Intro -->
+    <section class="services-intro">
+        <div class="container">
+            <p class="services-intro__text fade-in">
+                Vi tilbyr et komplett spekter av grunnarbeid – alltid med fokus på kvalitet og kundetilfredshet.
+                Hvert prosjekt planlegges nøye og utføres med presisjon.
+            </p>
+        </div>
+    </section>
+
+    <!-- Service 1: Tomtearbeid -->
+    <section class="service-detail" id="tomtearbeid">
+        <div class="container">
+            <div class="service-detail__inner">
+                <div class="service-detail__image fade-in-left">
+                    <img src="https://placehold.co/1200x700/1B365D/FFFFFF?text=Tomtearbeid" alt="Tomtearbeid">
+                </div>
+                <div class="service-detail__content fade-in-right">
+                    <h2 class="service-detail__title">Tomtearbeid</h2>
+                    <p class="service-detail__tagline">"Solid grunnlag for ditt byggeprosjekt"</p>
+                    <p class="service-detail__text">
+                        Grunnarbeidet er fundamentet for alt som bygges over. Vi sørger for at tomten din er
+                        riktig forberedt for bygging, med fokus på stabilitet og lang levetid.
+                    </p>
+                    <ul class="service-detail__list">
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            Graving for nybygg og tilbygg
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            Fundamenter og grunnmurer
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            Klargjøring av byggetomt
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            Fjerning av eksisterende konstruksjoner
+                        </li>
+                    </ul>
+                    <a href="kontakt.html" class="btn btn--primary">Be om tilbud</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service 2: VA og drenering -->
+    <section class="service-detail" id="va-drenering">
+        <div class="container">
+            <div class="service-detail__inner">
+                <div class="service-detail__image fade-in-left">
+                    <img src="https://placehold.co/1200x700/C4B7A6/333333?text=VA+og+drenering" alt="VA og drenering">
+                </div>
+                <div class="service-detail__content fade-in-right">
+                    <h2 class="service-detail__title">VA og drenering</h2>
+                    <p class="service-detail__tagline">"Viktig for husets levetid og verdi"</p>
+                    <p class="service-detail__text">
+                        God drenering er avgjørende for å beskytte huset ditt mot fuktskader. Vi leverer
+                        komplette VA-løsninger som sikrer eiendommen din for fremtiden.
+                    </p>
+                    <ul class="service-detail__list">
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            Vann- og avløpsanlegg
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            Drenering rundt grunnmur
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            Stikkledninger og tilkoblinger
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            Oppgradering av eldre systemer
+                        </li>
+                    </ul>
+                    <a href="kontakt.html" class="btn btn--primary">Be om tilbud</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service 3: Hage og terreng -->
+    <section class="service-detail" id="hage-terreng">
+        <div class="container">
+            <div class="service-detail__inner">
+                <div class="service-detail__image fade-in-left">
+                    <img src="https://placehold.co/1200x700/1B365D/FFFFFF?text=Hage+og+terreng" alt="Hage og terreng">
+                </div>
+                <div class="service-detail__content fade-in-right">
+                    <h2 class="service-detail__title">Hage og terreng</h2>
+                    <p class="service-detail__tagline">"Formgiving av uterommet"</p>
+                    <p class="service-detail__text">
+                        Et vakkert uteområde starter med riktig grunnarbeid. Vi former terrenget og
+                        forbereder grunnen for hage, uteplass og beplantning.
+                    </p>
+                    <ul class="service-detail__list">
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            Terrengforming og planering
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            Opparbeiding av hage og uteplass
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            Adkomstveier og gårdsplasser
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            Forberedelse for beplantning
+                        </li>
+                    </ul>
+                    <a href="kontakt.html" class="btn btn--primary">Be om tilbud</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service 4: Steinarbeid -->
+    <section class="service-detail" id="steinarbeid">
+        <div class="container">
+            <div class="service-detail__inner">
+                <div class="service-detail__image fade-in-left">
+                    <img src="https://placehold.co/1200x700/C4B7A6/333333?text=Steinarbeid" alt="Støttemurer og steinarbeid">
+                </div>
+                <div class="service-detail__content fade-in-right">
+                    <h2 class="service-detail__title">Støttemurer og steinarbeid</h2>
+                    <p class="service-detail__tagline">"Tidløst håndverk i stein"</p>
+                    <p class="service-detail__text">
+                        Steinarbeid gir eiendommen karakter og verdi. Vi bygger støttemurer og utfører
+                        steinarbeid som kombinerer funksjon med estetikk.
+                    </p>
+                    <ul class="service-detail__list">
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            Natursteinsmurer
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            Betongmurer
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            Kantstein og avgrensninger
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            Trapper og platting-underlag
+                        </li>
+                    </ul>
+                    <a href="kontakt.html" class="btn btn--primary">Be om tilbud</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service 5: Grøftearbeid -->
+    <section class="service-detail" id="groftearbeid">
+        <div class="container">
+            <div class="service-detail__inner">
+                <div class="service-detail__image fade-in-left">
+                    <img src="https://placehold.co/1200x700/1B365D/FFFFFF?text=Groftearbeid" alt="Grøftearbeid">
+                </div>
+                <div class="service-detail__content fade-in-right">
+                    <h2 class="service-detail__title">Grøftearbeid</h2>
+                    <p class="service-detail__tagline">"Skånsom graving med moderne utstyr"</p>
+                    <p class="service-detail__text">
+                        Presis grøftegraving for kabler, rør og infrastruktur. Vi jobber skånsomt
+                        og effektivt, også nær eksisterende konstruksjoner.
+                    </p>
+                    <ul class="service-detail__list">
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            Kabelgrøfter (fiber, strøm)
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            Rørgrøfter
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            Presisjongraving nær eksisterende strukturer
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            Tilbakefylling og komprimering
+                        </li>
+                    </ul>
+                    <a href="kontakt.html" class="btn btn--primary">Be om tilbud</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service 6: Garasje og uthus -->
+    <section class="service-detail" id="garasje">
+        <div class="container">
+            <div class="service-detail__inner">
+                <div class="service-detail__image fade-in-left">
+                    <img src="https://placehold.co/1200x700/C4B7A6/333333?text=Garasje+og+uthus" alt="Garasje og uthus">
+                </div>
+                <div class="service-detail__content fade-in-right">
+                    <h2 class="service-detail__title">Garasje og uthus</h2>
+                    <p class="service-detail__tagline">"Komplett grunnarbeid for tilbygg"</p>
+                    <p class="service-detail__text">
+                        Planlegger du garasje, carport eller uthus? Vi leverer ferdig grunnarbeid
+                        tilpasset ditt prosjekt og terreng.
+                    </p>
+                    <ul class="service-detail__list">
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            Grunnarbeid for garasjer
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            Forberedelse for carport
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            Fundament for uthus og anneks
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            Tilpasning til eksisterende terreng
+                        </li>
+                    </ul>
+                    <a href="kontakt.html" class="btn btn--primary">Be om tilbud</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process-section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-header__label">Vår prosess</span>
+                <h2 class="section-header__title">Slik arbeider vi</h2>
+                <div class="section-header__line"></div>
+            </div>
+
+            <div class="process-grid">
+                <div class="process-step fade-in stagger-1">
+                    <div class="process-step__number">1</div>
+                    <div class="process-step__content">
+                        <h4>Innledende samtale</h4>
+                        <p>Vi starter med å forstå dine behov og ønsker for prosjektet.</p>
+                    </div>
+                </div>
+
+                <div class="process-step fade-in stagger-2">
+                    <div class="process-step__number">2</div>
+                    <div class="process-step__content">
+                        <h4>Befaring</h4>
+                        <p>Vi besøker eiendommen for å vurdere forholdene og mulighetene.</p>
+                    </div>
+                </div>
+
+                <div class="process-step fade-in stagger-3">
+                    <div class="process-step__number">3</div>
+                    <div class="process-step__content">
+                        <h4>Tilbud</h4>
+                        <p>Du mottar et detaljert og forståelig tilbud uten skjulte kostnader.</p>
+                    </div>
+                </div>
+
+                <div class="process-step fade-in stagger-4">
+                    <div class="process-step__number">4</div>
+                    <div class="process-step__content">
+                        <h4>Planlegging</h4>
+                        <p>Vi koordinerer og planlegger arbeidet i samråd med deg.</p>
+                    </div>
+                </div>
+
+                <div class="process-step fade-in stagger-5">
+                    <div class="process-step__number">5</div>
+                    <div class="process-step__content">
+                        <h4>Utførelse</h4>
+                        <p>Arbeidet utføres med fokus på kvalitet og minimal forstyrrelse.</p>
+                    </div>
+                </div>
+
+                <div class="process-step fade-in stagger-6">
+                    <div class="process-step__number">6</div>
+                    <div class="process-step__content">
+                        <h4>Gjennomgang</h4>
+                        <p>Vi avslutter med en grundig gjennomgang sammen med deg.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="container">
+            <h2 class="cta-banner__title fade-in">Klar for å komme i gang?</h2>
+            <p class="cta-banner__text fade-in">
+                Ta kontakt for en uforpliktende samtale om ditt prosjekt.
+            </p>
+            <div class="cta-banner__buttons fade-in">
+                <a href="kontakt.html" class="btn btn--primary">Ta kontakt</a>
+                <a href="tel:+4790000000" class="btn btn--outline-light">Ring 900 00 000</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__brand">
+                    <div class="footer__logo">Haug Anlegg</div>
+                    <p class="footer__tagline">Solid håndverk fra grunnen av</p>
+                    <p class="footer__description">
+                        Grunnarbeid av høy kvalitet til private og profesjonelle kunder i Bærum og omegn.
+                    </p>
+                </div>
+
+                <div class="footer__section">
+                    <h4 class="footer__title">Sider</h4>
+                    <ul class="footer__links">
+                        <li><a href="index.html">Hjem</a></li>
+                        <li><a href="tjenester.html">Tjenester</a></li>
+                        <li><a href="prosjekter.html">Prosjekter</a></li>
+                        <li><a href="om-oss.html">Om oss</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__section">
+                    <h4 class="footer__title">Kontakt</h4>
+                    <div class="footer__contact-item">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                        <a href="tel:+4790000000">900 00 000</a>
+                    </div>
+                    <div class="footer__contact-item">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                        </svg>
+                        <a href="mailto:post@hauganlegg.no">post@hauganlegg.no</a>
+                    </div>
+                    <div class="footer__contact-item">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                        </svg>
+                        <span>Rud, Bærum</span>
+                    </div>
+                </div>
+
+                <div class="footer__section">
+                    <h4 class="footer__title">Områder</h4>
+                    <p class="footer__areas">Bærum, Asker, Oslo vest, Sandvika, Bekkestua, Høvik, Stabekk, Fornebu</p>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__org">Org.nr: 936603920</p>
+                <p class="footer__copyright">&copy; 2025 Haug Anlegg AS. Alle rettigheter reservert.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
